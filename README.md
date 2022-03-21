@@ -21,14 +21,14 @@ function (firstName, lastName, age){
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|   ("Scott", "Booma", 27)    | {firstName: "Scott", lastName: "Booma", age: 27 }       | 
+|   ("Stephanie", "Booma", 28)    | {firstName: "Stephanie", lastName: "Booma", age: 28 }       | 
+|    (1, 2, 3)   | {firstName: 1, lastName: 2, age: 3 }       | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program takes three inputs, it then creates an object called 'person' and places the first input in a property called 'firstName', the second input in a property called 'lastName', and the third input into a property called 'age'. The output is then that object that was just created. Useful for creating a database of people.</td>
   </tr>
 </table>
 
